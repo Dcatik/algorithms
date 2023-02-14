@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 N = 100
 sigma = 3
 k = 0.5
@@ -29,5 +30,3 @@ plt.plot(f)
 plt.scatter(x, y, s = 2, c = 'red')
 plt.grid(True)
 plt.show()
-
-
